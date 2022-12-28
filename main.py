@@ -1,12 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask, render_template, request, redirect
+from flask_mail import Mail, Message
 import os
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/")
 def index():
-    return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
+    return render_template("index.html")
 
 
 if __name__ == '__main__':
