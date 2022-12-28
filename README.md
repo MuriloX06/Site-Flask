@@ -13,7 +13,7 @@ tags:
 
 Este é um [Flask](https://flask.palletsprojects.com/en/1.1.x/) aplicativo que atende a uma resposta JSON simples.
 
-## ✨ Features
+## ✨ Recursos
 
 - Python
 - Flask
