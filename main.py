@@ -27,7 +27,7 @@ def send():
         )
 
         corpo_email = f"""
-        <p>O {fm.nome} mandou uma mensagem: {fm.mensagem}</p>
+        <p>O {fm.nome} cujo o e-mail é {fm.email}, mandou uma mensagem: {fm.mensagem}</p>
         """
 
         msg = email.message.Message()
